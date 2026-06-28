@@ -18,13 +18,21 @@ This project develops an end-to-end machine learning solution capable of identif
 RideWise currently faces several business challenges:
 
 Approximately 25% quarterly customer churn
+
 Limited understanding of customer behavioural patterns
+
 Low promotion campaign conversion rates
+
 Unclear return on investment (ROI) for promotional campaigns
+
 Manual customer analysis requiring weeks to complete
+
 No predictive system for identifying at-risk customers
+
 Limited real-time customer insights
+
 Lack of an integrated customer analytics platform
+
 Increasing competitive pressure within the mobility sector
 
 ## Project Objectives
