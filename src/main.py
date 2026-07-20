@@ -3,10 +3,10 @@ from pathlib import Path
 import joblib
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
-import preprocessing
+from src import preprocessing
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_PATH = BASE_DIR / 'MODELS_DIR' / 'xgboost.pkl'
+MODEL_PATH = BASE_DIR / 'MODELS_DIR' / 'logistic_regression.pkl'
 FEATURE_COLUMNS_PATH = BASE_DIR / 'MODELS_DIR' / 'feature_columns.json'
 
 model = joblib.load(MODEL_PATH)
